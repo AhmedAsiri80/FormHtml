@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>
+            Form in html
+        </title>
+    </head>
+    <body>
+        <form id="myform" name="myform" action="" method="post" enctype="multipart/form-data"> 
+            
+            <label for="username" aria-required="false"> Username : </label>
+            <input type="text" id="username" name="username" required autocomplete="off"  placeholder="username">
+
+
+            <label for="username" aria-required="false"> Username : </label>
+            <input type="text" id="username" name="username" required autocomplete="off"  placeholder="username" readonly disabled>
+
+
+            <label for="password"> Password : </label>
+            <input type="password" id="password" name="password" placeholder="password">
+
+            <label for=" age"> your age : </label>
+            <input type="number" id="age" name="age" placeholder="00">
+
+
+            <div>-------------------------------------------------</div>
+            <textarea di="content" name="content" rows="10" cols="81"> </textarea>
+            <div>-------------------------------------------------</div>
+
+            <div>-------------------------------------------------</div>
+            <input type="checkbox" checked> art
+            <input type="checkbox"> fun
+            <input type="checkbox"> technology
+            <input type="checkbox"> sport
+
+            <div>-------------------------------------------------</div>
+
+             <input type="radio" id="gender" name="gender" checked> Male
+             <input type="radio" id="gender" name="gender"> Famale
+            <div>--------------------------------------------------</div>
+
+             <select id="country" name="country">
+                 <option value="009">Egypt</option>
+                 <option selected value="008" >soudi arabia</option>
+                 <option>turkey</option>
+                 <option>omman</option>
+
+
+             </select>
+
+
+            <div>--------------------------------------------------</div>
+            <input type="color">
+            <input type="range" min="50" max="100">
+
+            <br><br>
+            <label for="email"> Email : </label>
+            <input type="email" id="email" name="email">
+            <br><br><br>
+
+            <label for="website"> Website : </label>
+            <input type="url" id="website" name="website">
+
+            <div>--------------------------------------------------</div>
+
+            <input type="date">
+            <input type="datetime-local">
+            <input type="month">
+            <input type="week">
+            <input type="time">
+
+
+            <div>--------------------------------------------------</div>
+            <input type="file">
+            <input type="file" multiple>
+            
+
+
+
+            <div>--------------------------------------------------</div>
+
+
+
+
+             <button type="reset" id="reset" name="reset">Rest</button>
+             <button type="submit" id="submit" name="submit" value="submit">Login</button>
+            
+        </form>
+
+    </body>
+</html>
